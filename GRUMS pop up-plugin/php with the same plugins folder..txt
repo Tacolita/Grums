@@ -1,0 +1,14 @@
+<?php
+/**
+* @package GRUMS pop upplugin
+*/
+/*
+Plugin Name: GRUMS Plugin
+Plugin URI: http://tomassotak.com/plugin
+Description: a custom pop up plugin for GRUMS page
+Version: 1.0.0
+Author: Viktorija Jonynaite, Tomas Sotak, Lukas Cepas
+Author URI: http://tomassotak.com
+License: Driver's only.
+Text Domain: GRUMS Plugin
+*/

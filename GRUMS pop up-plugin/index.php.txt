@@ -1,0 +1,2 @@
+<?php
+//Don't go to other people's php files :) Unless it's our teachers, then sorry!
