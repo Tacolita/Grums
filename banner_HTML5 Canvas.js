@@ -142,10 +142,10 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	this.instance_1 = new lib.Tween3("synched",0);
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(988.4,360.95,0.8638,0.8638,0,0,0,0.1,0.4);
+	this.instance_1.setTransform(986.95,358.95,0.6948,0.6946,0,0,0,0.7,0.4);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},35).wait(36));
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true,regX:0.1,regY:0.4,scaleX:0.8638,scaleY:0.8638,x:988.4,y:360.95,alpha:1},35).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true,regX:0.7,regY:0.4,scaleX:0.6948,scaleY:0.6946,x:986.95,y:358.95,alpha:1},35).wait(36));
 
 	// Layer_5 (mask)
 	var mask = new cjs.Shape();
@@ -243,8 +243,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/mix_3.jpg", id:"mix_3"},
-		{src:"images/banner_HTML5 Canvas_atlas_.png", id:"banner_HTML5 Canvas_atlas_"}
+		{src:"images/mix_3.jpg?1572545524139", id:"mix_3"},
+		{src:"images/banner_HTML5 Canvas_atlas_.png?1572545524123", id:"banner_HTML5 Canvas_atlas_"}
 	],
 	preloads: []
 };
