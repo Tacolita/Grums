@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://www.fontsquirrel.com/fonts/josefin-slab" rel="stylesheet">
+    <link href="https://www.fontsquirrel.com/fonts/dosis" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        <div class="box slide-top" id="slideBox">
+        <div class="popupCloseButton" id="closeButton">X</div>
+        <div class="logo"><img src="stamps.gif" alt="Grums, letter g, coffee beans"></div>
+        <div id="promotion-header">
+           <h4 id="promotion-header-title">Action is the new beauty<br><br><span id="promotion-subheader-title">Take an action and collect 5 Grums labels in order to get a free product by your choice</span></h4>
+        </div>
+
+                <div class="button-holder">
+				    <div class="button-element ">
+                        <button class="btn btn-primary btn-lg active" role="button">Start collecting</button>  
+                    </div>
+                </div>
+
+        </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+            $("#closeButton").click(function(){
+            $("#slideBox").hide();
+        });
+    });
+</script>
+
+
+
+</body>
+</html>
+
