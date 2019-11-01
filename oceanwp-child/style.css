@@ -1,13 +1,18 @@
 /*
  Theme Name:   Ocean WP Child Theme
- Theme URI:    http://viktorijajonynaite.one/
+ Theme URI:    http://tomassotak.com/grumsproject/
  Description:  Hamilton Child Theme
- Author:       Viktorija Jonynaite
- Author URI:   http://viktorijajonynaite.one/
+ Author:       Viktorija Jonynaite, Lukas Cepas, Tomas Sotak
+ Author URI:   http://tomassotak.com/grumsproject/
  Template:     oceanwp
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  https://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, blog, two-columns, custom menu, grid-layout
+ Tags:         light, blog, t custom menu, grid-layout
  Text Domain:  oceanwp
 */
+
+
+element.style {
+    background-color: white;
+}
